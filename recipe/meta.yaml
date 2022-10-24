@@ -1,5 +1,5 @@
 {% set name = "napari-splineit" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari_splineit-{{ version }}.tar.gz
-  sha256: 5c07a3181bbcf70951a158d46c72368fa6eb1bae570ef09bb388b772a3e74ba0
+  sha256: 5b12e91a8db8e044e612fb761f5129ac20547c106aba16026320437a53ce3d78
 
 build:
   noarch: python
